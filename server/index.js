@@ -6,6 +6,8 @@ const path = require('path')
 
 app.set('port', process.env.PORT || 3000)
 
+app.use('/public', express.static(__dirname+'/public'))
+
 app.use(express.static(path.resolve(__dirname+"/../")))
 
 if(process.env.NODE_ENV !== 'production'){
