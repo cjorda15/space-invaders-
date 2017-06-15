@@ -1,0 +1,17 @@
+*{
+  padding:0px;
+  margin: 0px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-size: cover;
+  background-image: url('./Icon-Img-folder/1487892588814.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+  max-width: 1300px;
+}

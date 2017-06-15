@@ -1,0 +1,32 @@
+.nav-bar-container{
+  display: flex;
+  justify-content:flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-top: 100px;
+  padding-bottom: 15px;
+  width: 100%;
+  height: 44px;
+  font-family: 'Vibur',sans-serif;
+}
+
+.nav-link{
+  text-shadow: black 2px 3px 2px;
+  max-height: 27px;
+  color: cadetblue;
+  text-decoration: none;
+  border-bottom: 2px solid #fff;
+  font-size: 24px;
+  width: 100px;
+}
+
+.nav-link:hover{
+  color:#fff;
+  border-bottom: 4px solid cadetblue;
+  transition: all .5s;
+  font-size: 27px;
+}
+
+.nav-link:active{
+  color:red;
+}

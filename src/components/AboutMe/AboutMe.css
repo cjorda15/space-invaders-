@@ -1,0 +1,26 @@
+.about-me{
+  width: 80%;
+  margin: auto;
+  height: 100%;
+  margin-top: 10px;
+}
+
+.about-me-img{
+  background-image: url('./ImgFolder/3cc4c15c8-2236-475d-965a-cf853c6ffb6c.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width:400px;
+  height:300px;
+}
+
+.home-text{
+  background: cadetblue;
+  padding: 12px;
+  opacity: 0.9;
+  color:#fff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 22px;
+  text-align: center;
+  border: #fff 5px solid;
+}

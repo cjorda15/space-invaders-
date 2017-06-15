@@ -1,0 +1,24 @@
+.main-content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 190px;
+  background-color: #000;
+  opacity: 0.7
+}
+
+.name-container{
+  background: #fff;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 38px;
+  opacity: 0.7;
+  font-family: 'Vibur',sans-serif;
+}
+
+.banner-welcome{
+  color: #fff;
+  font-family: 'Vibur',sans-serif;
+  font-size: 30px;
+}
